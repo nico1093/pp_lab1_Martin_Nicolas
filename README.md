@@ -4,7 +4,7 @@ Examen parcial
 
 Escribe un programa en Python que cargue la información de los jugadores del Dream Team desde un archivo JSON y realice las siguientes tareas, teniendo en cuenta que cada una de ellas deberá de ser realizada por una función diferente:
 
-![DREAM_TEAM](Dream Team.jpeg)
+![DREAMTEAM](Dream Team.jpeg)
 
 1) Mostrar la lista de todos los jugadores del Dream Team. Con el formato:
 Nombre Jugador - Posición. Ejemplo:
