@@ -1,4 +1,3 @@
-import re
 import files
 import other_functions as of
 import validates
@@ -21,7 +20,7 @@ def view_player_data(players:list,name_player:str):
 def import_csv_player_data(name_player:str, players:list,name:str):
     #Recibe una lista de jugadores y una posicion para generar un archivo csv con las estadisticas del jugador 
     #ubicado en dicha posicion.
-    ruta = f'code/PARCIAL/files/Estadisticas/{name_player}.csv'
+    ruta = f'files/{name_player}.csv'
     player = of.player_data(players,name)['estadisticas']
     data_player = ','.join(player.keys()) + '\n'
     for key in player:
@@ -113,7 +112,7 @@ def view_player_order_by_average_key_position(players:list, average:str, key:str
 def export_csv_ranking(players:list):
     #Recibe una lista de jugadores y una ruta. Exporta la informacion de todos los jugadores a un archivo
     #con extension csv
-    ruta = 'code/PARCIAL/files/Ranking/dream_team_ranking.csv'
+    ruta = 'files/dream_team_ranking.csv'
     data_player = 'nombre'
     data_player += ','.join(players[0]['estadisticas'].keys()) + '\n'
     for player in players:

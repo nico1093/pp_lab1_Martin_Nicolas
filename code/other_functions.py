@@ -1,5 +1,6 @@
 import validates
-#import re
+
+
 
 def player_data(players:list, name_player:str) -> dict:
     #Recibe una lista de jugadores y devuelve un jugador.

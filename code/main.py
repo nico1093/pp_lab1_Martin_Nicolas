@@ -2,7 +2,7 @@ import menu
 import main_functions as mf
 import files
 
-dream_team = files.read_json('code/PARCIAL/files/dt.json')
+dream_team = files.read_json('files/dt.json')
 
 
 while True:   
