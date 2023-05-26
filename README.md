@@ -1,9 +1,10 @@
 # pp_lab1_Martin_Nicolas_Gustavo
-Primer commit del parcial Laboratorio y Programación 1
+## Primer commit del parcial Laboratorio y Programación 1
 Examen parcial 
 
 Escribe un programa en Python que cargue la información de los jugadores del Dream Team desde un archivo JSON y realice las siguientes tareas, teniendo en cuenta que cada una de ellas deberá de ser realizada por una función diferente:
 
+![DREAM_TEAM](Dream Team.jpeg)
 
 1) Mostrar la lista de todos los jugadores del Dream Team. Con el formato:
 Nombre Jugador - Posición. Ejemplo:
@@ -63,28 +64,14 @@ Todos los puntos deberán poder ser accedidos a través de un menú de opciones.
 23) Bonus 
 
 Calcular de cada jugador cuál es su posición en cada uno de los siguientes ranking
-Puntos 
-Rebotes 
-Asistencias 
-Robos
+  *Puntos 
+  *Rebotes 
+  *Asistencias 
+  *Robos
 
 Exportar a csv.
 
 Ejemplo
-Jugador
-Puntos
-Rebotes
-Asistencias
-Robos
-Michael Jordan
-1
-1
-1
-2
-Magic
-2
-3
-4
-4
+![EJEMPLO](Example.png)
 
 
