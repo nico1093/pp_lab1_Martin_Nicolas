@@ -3,11 +3,11 @@ import re
 
 def is_int_number(option:str) -> bool:
     #Recibe un string y denota True si la opcion numerica es valida. Caso contrario denota False.
-    return re.match(r'^[0-9]+$',option) != None
+    return re.match(r'^[0-9]+$',option)
 
 def is_float_number(number:str) -> bool:
     #Recibe un string y denota True si numero ingresado es decimal. Caso contrario denota False.
-    return re.match(r'^[0-9]+.[0-9]+$',number) != None
+    return re.match(r'^[0-9]+.[0-9]+$',number) 
 
 def is_player(player:dict,player_name:str) -> bool:
     #Recibe un jugadores y el nombre de un jugador. Devuelve True si es el jugador, False en caso contrario.
@@ -16,7 +16,7 @@ def is_player(player:dict,player_name:str) -> bool:
 def validate_name_player(name:str) -> bool:
     #Recibe un nombre y denota True si el nombre es valido. Caso contrario denota False
     #Un nombre tiene el siguiente formato. 1° Nombre y 1° Apellido.
-    return re.search(r'^[A-Za-z]+ [A-Za-z]+$',name) != None
+    return re.search(r'^[A-Za-z]+ [A-Za-z]+$',name) 
 
 def exist_player(players:list,player_name:str) -> bool:
     #Recibe una lista de jugadores y un nombre. 
@@ -31,7 +31,7 @@ def validate_hall_of_fame(logros:list) -> bool:
     #salon de la fama de baloncesto. Caso contrario denota False.
     #No se considera valida el salon de la Fama de baloncesto Universitario
     for logro in logros:
-        if re.search(r'Salon de la Fama del Baloncesto$',logro) != None:
+        if re.search(r'Salon de la Fama del Baloncesto$',logro):
             return True
     return False
 
