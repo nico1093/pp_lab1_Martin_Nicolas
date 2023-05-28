@@ -1,75 +1,58 @@
 # pp_lab1_Martin_Nicolas_Gustavo
-## Primer commit del parcial Laboratorio y Programación 1
-Examen parcial 
+## DREAM TEAM APP
+Información: 
 
-Escribe un programa en Python que cargue la información de los jugadores del Dream Team desde un archivo JSON y realice las siguientes tareas, teniendo en cuenta que cada una de ellas deberá de ser realizada por una función diferente:
+Es un programa en Python que carga la información de los jugadores del Dream Team. Al iniciar el programa el usuario accedera a un menú:
 
 ![DREAMTEAM](DREAM_TEAM.png)
 
-1) Mostrar la lista de todos los jugadores del Dream Team. Con el formato:
-Nombre Jugador - Posición. Ejemplo:
+El menú permitira realizar diferentes acciones según la opción seleccionada. Los funcionamientos del programa son los suguientes: 
+
+1) Muestra un listado con todos los jugadores del Dream Team. 
+El formato es el siguiente:
+Nombre Jugador - Posición. 
+Ejemplo:
 Michael Jordan - Escolta
 
-2) Permitir al usuario seleccionar un jugador por su índice y mostrar sus estadísticas completas, incluyendo temporadas jugadas, puntos totales, promedio de puntos por partido, rebotes totales, promedio de rebotes por partido, asistencias totales, promedio de asistencias por partido, robos totales, bloqueos totales, porcentaje de tiros de campo, porcentaje de tiros libres y porcentaje de tiros triples.
+2) Permite al usuario seleccionar un jugador por su índice y muestra sus estadísticas completas, incluyendo temporadas jugadas, puntos totales, promedio de puntos por partido, rebotes totales, promedio de rebotes por partido, asistencias totales, promedio de asistencias por partido, robos totales, bloqueos totales, porcentaje de tiros de campo, porcentaje de tiros libres y porcentaje de tiros triples.
 
-3) Después de mostrar las estadísticas de un jugador seleccionado por el usuario, permite al usuario guardar las estadísticas de ese jugador en un archivo CSV. El archivo CSV debe contener los siguientes campos: nombre, posición, temporadas, puntos totales, promedio de puntos por partido, rebotes totales, promedio de rebotes por partido, asistencias totales, promedio de asistencias por partido, robos totales, bloqueos totales, porcentaje de tiros de campo, porcentaje de tiros libres y porcentaje de tiros triples.
+3) Le permite al usuario buscar un jugador por su nombre y exporta la información del jugador en un archivo CSV. En el archivo CSV se informan los siguientes campos: nombre, posición, temporadas, puntos totales, promedio de puntos por partido, rebotes totales, promedio de rebotes por partido, asistencias totales, promedio de asistencias por partido, robos totales, bloqueos totales, porcentaje de tiros de campo, porcentaje de tiros libres y porcentaje de tiros triples.
 
-4) Permitir al usuario buscar un jugador por su nombre y mostrar sus logros, como campeonatos de la NBA, participaciones en el All-Star y pertenencia al Salón de la Fama del Baloncesto, etc.
+4) Permite al usuario buscar un jugador por su nombre y muestra sus logros, como campeonatos de la NBA, participaciones en el All-Star y pertenencia al Salón de la Fama del Baloncesto, etc.
 
-5) Calcular y mostrar el promedio de puntos por partido de todo el equipo del Dream Team, ordenado por nombre de manera ascendente. 
+5) Calcula y muestra a todos los jugadores ordenados alfabeticamente y el promedio de puntos por partido de todo el equipo del Dream Team. 
 
-6) Permitir al usuario ingresar el nombre de un jugador y mostrar si ese jugador es miembro del Salón de la Fama del Baloncesto.
+6) Permite al usuario ingresar el nombre de un jugador y muestra si ese jugador es miembro del Salón de la Fama del Baloncesto.
 
-7) Calcular y mostrar el jugador con la mayor cantidad de rebotes totales.
+7) Calcula y muestra el jugador con la mayor cantidad de rebotes totales.
 
-8) Calcular y mostrar el jugador con el mayor porcentaje de tiros de campo.
+8) Calcula y muestra el jugador con el mayor porcentaje de tiros de campo.
 
-9) Calcular y mostrar el jugador con la mayor cantidad de asistencias totales.
+9) Calcula y muestra el jugador con la mayor cantidad de asistencias totales.
 
-10) Permitir al usuario ingresar un valor y mostrar los jugadores que han promediado más puntos por partido que ese valor.
+10) Permite al usuario ingresar un valor y muestra los jugadores que han promediado más puntos por partido que el valor ingfesado.
 
-11) Permitir al usuario ingresar un valor y mostrar los jugadores que han promediado más rebotes por partido que ese valor.
+11) Permite al usuario ingresar un valor y muestra los jugadores que han promediado más rebotes por partido que el valor ingresado.
 
-12) Permitir al usuario ingresar un valor y mostrar los jugadores que han promediado más asistencias por partido que ese valor.
+12) Permite al usuario ingresar un valor y muestra los jugadores que han promediado más asistencias por partido que el valor ingresado.
 
-13) Calcular y mostrar el jugador con la mayor cantidad de robos totales.
+13) Calcula y muestra el jugador con la mayor cantidad de robos totales.
 
-14) Calcular y mostrar el jugador con la mayor cantidad de bloqueos totales.
+14) Calcula y muestra el jugador con la mayor cantidad de bloqueos totales.
 
-15) Permitir al usuario ingresar un valor y mostrar los jugadores que hayan tenido un porcentaje de tiros libres superior a ese valor.
+15) Permite al usuario ingresar un valor y muestra los jugadores que hayan tenido un porcentaje de tiros libres superior al valor ingresado.
 
-16) Calcular y mostrar el promedio de puntos por partido del equipo excluyendo al jugador con la menor cantidad de puntos por partido.
+16) Calcula y muestra el promedio de puntos por partido del equipo excluyendo al jugador con la menor cantidad de puntos por partido.
 
-17) Calcular y mostrar el jugador con la mayor cantidad de logros obtenidos
+17) Calcula y muestra el jugador con la mayor cantidad de logros obtenidos
 
-18) Permitir al usuario ingresar un valor y mostrar los jugadores que hayan tenido un porcentaje de tiros triples superior a ese valor.
+18) Permite al usuario ingresar un valor y muestra a los jugadores que hayan tenido un porcentaje de tiros triples superior al valor ingresado.
 
-19) Calcular y mostrar el jugador con la mayor cantidad de temporadas jugadas
+19) Calcula y muestra al jugador con la mayor cantidad de temporadas jugadas
 
-20) Permitir al usuario ingresar un valor y mostrar los jugadores , ordenados por posición en la cancha, que hayan tenido un porcentaje de tiros de campo superior a ese valor.
+20) Permite al usuario ingresar un valor y mostrar los jugadores , ordenados por posición en la cancha, que hayan tenido un porcentaje de tiros de campo superior a ese valor.
 
-Recuerda utilizar el archivo JSON proporcionado para cargar la información de los jugadores. Puedes utilizar las bibliotecas estándar de Python, como json, para leer el archivo JSON y procesar la información.
-
-Todas las funciones deberán estar correctamente documentadas. 
-Las funciones y las variables deberán estar claramente nombradas y seguir las reglas de estilos utilizadas en la materia. 
-Todos los puntos deberán poder ser accedidos a través de un menú de opciones.
-
-
-
-
-
-
-
-
-23) Bonus 
-
-Calcular de cada jugador cuál es su posición en cada uno de los siguientes ranking
-  *Puntos 
-  *Rebotes 
-  *Asistencias 
-  *Robos
-
-Exportar a csv.
+21) Calcula de cada jugador cuál es su posición en cada uno de los siguientes ranking según sus estadísticas y exporta a csv.
 
 Ejemplo
 ![EJEMPLO](Example.png)

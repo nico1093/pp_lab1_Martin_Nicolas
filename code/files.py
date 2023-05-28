@@ -2,7 +2,7 @@ import json
 
 def read_json(ruta:str) -> list:
     #Recibe una ruta representado como string y devuelve la lista del dream team
-    with open(ruta, 'r') as file:
+    with open(ruta, 'r', encoding = "utf-8") as file:
         players = json.load(file)
     return players['jugadores']
 

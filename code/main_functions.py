@@ -15,7 +15,7 @@ def view_player_data(players:list,name_player:str):
     player = of.player_data(players,name_player)['estadisticas']
     print(f'Nombre: {name_player}')
     for key in player:
-        print(f'\t{key}: {player[key]}')
+        print(f'\t{key.replace("_"," ")}: {player[key]}')
 
 def import_csv_player_data(name_player:str, players:list,name:str):
     #Recibe una lista de jugadores y una posicion para generar un archivo csv con las estadisticas del jugador 
