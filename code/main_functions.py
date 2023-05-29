@@ -43,12 +43,14 @@ def view_is_hall_of_fame(players:list,name:str):
     #fama o no.
     #En caso que no se encuentre el jugador se le notificara mensaje de error al usuario.
     if validates.validate_name_player(name) and validates.exist_player(players,name):
-        if validates.validate_hall_of_fame(of.search_player(players,name)['logros']):
-            print(f'{name}: Pertenece al Salon de la Fama del Baloncesto')
+        player = of.search_player(players, name)
+        if validates.validate_hall_of_fame(player['logros']):
+            print(f'{player["nombre"]}: Pertenece al Salon de la Fama del Baloncesto')
         else:
-            print(f'{name}: No pertenece al Salon de la Fama del Baloncesto')
+            print(f'{player["nombre"]}: No pertenece al Salon de la Fama del Baloncesto')
     else:
         validates.player_err_message()
+
 
 def view_best_player_statics_by_key(players:list,key:str):
     #Recibe una lista de jugadores y una key. Imprime el nombre del jugador con mas estadisticas totales segun

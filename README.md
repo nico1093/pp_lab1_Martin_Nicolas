@@ -52,7 +52,7 @@ Michael Jordan - Escolta
 
 20) Permite al usuario ingresar un valor y mostrar los jugadores , ordenados por posición en la cancha, que hayan tenido un porcentaje de tiros de campo superior a ese valor.
 
-21) Calcula de cada jugador cuál es su posición en cada uno de los siguientes ranking según sus estadísticas y exporta a csv.
+23) Calcula de cada jugador cuál es su posición en cada uno de los siguientes ranking según sus estadísticas y exporta a csv.
 
 Ejemplo
 ![EJEMPLO](Example.png)
